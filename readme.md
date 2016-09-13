@@ -13,7 +13,7 @@ $ npm install --save is-binary-path
 ## Usage
 
 ```js
-var isBinaryPath = require('is-binary-path');
+const isBinaryPath = require('is-binary-path');
 
 isBinaryPath('src/unicorn.png');
 //=> true
