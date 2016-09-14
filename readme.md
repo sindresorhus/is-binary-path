@@ -25,10 +25,10 @@ isBinaryPath('src/unicorn.txt');
 
 ## Related
 
-- [`binary-extensions`](https://github.com/sindresorhus/binary-extensions) - List of binary file extensions
-- [`is-text-path`](https://github.com/sindresorhus/is-text-path) - Check if a filepath is a text file
+- [binary-extensions](https://github.com/sindresorhus/binary-extensions) - List of binary file extensions
+- [is-text-path](https://github.com/sindresorhus/is-text-path) - Check if a filepath is a text file
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
