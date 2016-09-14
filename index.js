@@ -4,6 +4,4 @@ const binaryExtensions = require('binary-extensions');
 
 const exts = new Set(binaryExtensions);
 
-module.exports = filepath => {
-	return exts.has(path.extname(filepath).slice(1).toLowerCase());
-};
+module.exports = filepath => exts.has(path.extname(filepath).slice(1).toLowerCase());
