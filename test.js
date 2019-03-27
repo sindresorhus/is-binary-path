@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from './';
+import isBinaryPath from '.';
 
-test(t => {
-	t.true(m('unicorn.png'));
-	t.true(m('unicorn.zip'));
-	t.true(m('unicorn.ZIP'));
-	t.false(m('unicornzip'));
-	t.false(m('unicorn.txt'));
+test('main', t => {
+	t.true(isBinaryPath('unicorn.png'));
+	t.true(isBinaryPath('unicorn.zip'));
+	t.true(isBinaryPath('unicorn.ZIP'));
+	t.false(isBinaryPath('unicornzip'));
+	t.false(isBinaryPath('unicorn.txt'));
 });

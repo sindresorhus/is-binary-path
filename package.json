@@ -1,43 +1,40 @@
 {
-  "name": "is-binary-path",
-  "version": "2.0.1",
-  "description": "Check if a filepath is a binary file",
-  "license": "MIT",
-  "repository": "sindresorhus/is-binary-path",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "bin",
-    "binary",
-    "ext",
-    "extensions",
-    "extension",
-    "file",
-    "path",
-    "check",
-    "detect",
-    "is"
-  ],
-  "dependencies": {
-    "binary-extensions": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "is-binary-path",
+	"version": "2.0.1",
+	"description": "Check if a filepath is a binary file",
+	"license": "MIT",
+	"repository": "sindresorhus/is-binary-path",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"bin",
+		"binary",
+		"ext",
+		"extensions",
+		"extension",
+		"file",
+		"path",
+		"check",
+		"detect",
+		"is"
+	],
+	"dependencies": {
+		"binary-extensions": "^1.13.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.18.0"
+	}
 }
