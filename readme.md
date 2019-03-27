@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save is-binary-path
+$ npm install is-binary-path
 ```
 
 
@@ -31,4 +31,4 @@ isBinaryPath('src/unicorn.txt');
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com), Paul Miller (https://paulmillr.com)
