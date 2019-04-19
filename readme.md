@@ -1,6 +1,6 @@
 # is-binary-path [![Build Status](https://travis-ci.org/sindresorhus/is-binary-path.svg?branch=master)](https://travis-ci.org/sindresorhus/is-binary-path)
 
-> Check if a filepath is a binary file
+> Check if a file path is a binary file
 
 
 ## Install
@@ -15,10 +15,10 @@ $ npm install is-binary-path
 ```js
 const isBinaryPath = require('is-binary-path');
 
-isBinaryPath('src/unicorn.png');
+isBinaryPath('source/unicorn.png');
 //=> true
 
-isBinaryPath('src/unicorn.txt');
+isBinaryPath('source/unicorn.txt');
 //=> false
 ```
 

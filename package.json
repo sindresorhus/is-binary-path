@@ -1,7 +1,7 @@
 {
 	"name": "is-binary-path",
 	"version": "2.0.1",
-	"description": "Check if a filepath is a binary file",
+	"description": "Check if a file path is a binary file",
 	"license": "MIT",
 	"repository": "sindresorhus/is-binary-path",
 	"author": {
@@ -20,9 +20,7 @@
 		"index.d.ts"
 	],
 	"keywords": [
-		"bin",
 		"binary",
-		"ext",
 		"extensions",
 		"extension",
 		"file",

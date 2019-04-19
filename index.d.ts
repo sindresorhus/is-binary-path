@@ -1,17 +1,17 @@
 /**
-Check if a filepath is a binary file.
+Check if a file path is a binary file.
 
 @example
 ```
 import isBinaryPath = require('is-binary-path');
 
-isBinaryPath('src/unicorn.png');
+isBinaryPath('source/unicorn.png');
 //=> true
 
-isBinaryPath('src/unicorn.txt');
+isBinaryPath('source/unicorn.txt');
 //=> false
 ```
 */
-declare function isBinaryPath(filepath: string): boolean;
+declare function isBinaryPath(filePath: string): boolean;
 
 export = isBinaryPath;
