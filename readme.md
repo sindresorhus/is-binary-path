@@ -29,6 +29,14 @@ isBinaryPath('source/unicorn.txt');
 - [is-text-path](https://github.com/sindresorhus/is-text-path) - Check if a filepath is a text file
 
 
-## License
+---
 
-MIT © [Sindre Sorhus](https://sindresorhus.com), [Paul Miller](https://paulmillr.com)
+<div align="center">
+	<b>
+		<a href="https://tidelift.com/subscription/pkg/npm-is-binary-path?utm_source=npm-is-binary-path&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
+	</b>
+	<br>
+	<sub>
+		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
+	</sub>
+</div>
