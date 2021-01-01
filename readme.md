@@ -1,4 +1,4 @@
-# is-binary-path [![Build Status](https://travis-ci.org/sindresorhus/is-binary-path.svg?branch=master)](https://travis-ci.org/sindresorhus/is-binary-path)
+# is-binary-path
 
 > Check if a file path is a binary file
 
