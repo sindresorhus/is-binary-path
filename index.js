@@ -1,5 +1,5 @@
 'use strict';
-const path = require('path');
+const path = require('path-cross');
 const binaryExtensions = require('binary-extensions');
 
 const extensions = new Set(binaryExtensions);

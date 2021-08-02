@@ -30,7 +30,8 @@
 		"is"
 	],
 	"dependencies": {
-		"binary-extensions": "^2.0.0"
+		"binary-extensions": "^2.0.0",
+		"path-cross": "^0.0.3"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
