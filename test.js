@@ -1,5 +1,5 @@
 import test from 'ava';
-import isBinaryPath from '.';
+import isBinaryPath from './index.js';
 
 test('main', t => {
 	t.true(isBinaryPath('unicorn.png'));
