@@ -1,6 +1,6 @@
 {
 	"name": "is-binary-path",
-	"version": "2.1.0",
+	"version": "3.0.0",
 	"description": "Check if a file path is a binary file",
 	"license": "MIT",
 	"repository": "sindresorhus/is-binary-path",
